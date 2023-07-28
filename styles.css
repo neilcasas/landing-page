@@ -52,6 +52,7 @@ main-container {
 .info-pic-container {
     display: flex;
     margin-top: 20px;
+    flex-wrap: wrap;
     gap: 80px;
 }
 
@@ -59,10 +60,6 @@ main-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-
-.info-description {
-    font-size: 18px;
 }
 
 .quote-container {
@@ -74,6 +71,7 @@ main-container {
 .quote {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .quote-text {
@@ -82,7 +80,7 @@ main-container {
 }
 
 .quote-src {
-    align-self: center;
+    align-self: flex-end;
 }
 
 .cta-container {
@@ -115,5 +113,4 @@ main-container {
     background-color: #1F2937;
     color: white;
     padding: 20px;
-    
 }
