@@ -9,7 +9,18 @@ body {
     flex-direction: column;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
 main-container {
     display: flex;
     flex-direction: column;
 }
+
