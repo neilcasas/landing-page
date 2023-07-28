@@ -52,7 +52,7 @@ main-container {
     margin-bottom: -20px;
 }
 
-.intro-button {
+.intro-button, .cta-button {
     text-decoration: none;
     color: white;
     background-color: #3882F6;
@@ -119,6 +119,7 @@ main-container {
 .cta {
     display: flex;
     align-items: center;
+    border-radius: 20px;
     background-color: #3882F6;
     gap: 50px;
     padding: 50px; 
@@ -130,6 +131,10 @@ main-container {
 
 .cta-heading {
     font-weight: 900;
+}
+
+.cta-button {
+    border: 1px solid white;
 }
 
 .footer {
