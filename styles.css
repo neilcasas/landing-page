@@ -13,6 +13,8 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top:0;
     background-color: #1F2937;
     color:white;
     padding: 20px;
@@ -131,10 +133,11 @@ main-container {
 .cta {
     display: flex;
     align-items: center;
-    border-radius: 20px;
+    flex-shrink: 0;
+    border-radius: 10px;
     background-color: #3882F6;
     gap: 50px;
-    padding: 50px; 
+    padding: 50px 100px; 
 }
 
 .cta-text {
