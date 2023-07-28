@@ -38,4 +38,22 @@ main-container {
     display: flex;
 }
 
+.quote-container {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
 
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-src {
+    justify-self: end;
+}
