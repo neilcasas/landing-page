@@ -49,6 +49,8 @@ main-container {
 }
 
 .intro {
+    font-size: 48px;
+    font-weight: 800;
     margin-bottom: -20px;
 }
 
@@ -56,6 +58,16 @@ main-container {
     text-decoration: none;
     color: white;
     background-color: #3882F6;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.intro-button:hover, .cta-button:hover {
+    text-decoration: none;
+    color: #3882F6;
+    background-color: white;
     height: fit-content;
     width: fit-content;
     padding: 10px;
