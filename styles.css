@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 2px dotted red;
 }
 
 body {
@@ -13,8 +12,8 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 20px;
-
+    background-color: #1F2937;
+    color:white;
 }
 
 .header-links {
@@ -31,7 +30,12 @@ main-container {
     display: flex;
     align-items: center;    
     justify-content: space-between;
+    background-color: #1F2937;
+    color:white;
 }
 
+.info-container {
+    display: flex;
+}
 
 
