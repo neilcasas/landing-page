@@ -7,6 +7,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header {
@@ -22,6 +23,11 @@ body {
     gap: 20px;
 }
 
+.header-links a {
+    text-decoration: none;
+    color: white;
+}
+
 main-container {
     display: flex;
     flex-direction: column;
@@ -34,6 +40,26 @@ main-container {
     background-color: #1F2937;
     color:white;
     padding: 100px;
+}
+
+.intro-main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.intro {
+    margin-bottom: -20px;
+}
+
+.intro-button {
+    text-decoration: none;
+    color: white;
+    background-color: #3882F6;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .info-container {
