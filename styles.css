@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 2px red dotted;
 }
 
 body {
@@ -13,11 +14,12 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    height: 60px;
+    padding: 20px;
     position: sticky;
     top:0;
     background-color: #1F2937;
     color:white;
-    padding: 20px;
 }
 
 .header-links {
@@ -38,13 +40,18 @@ main-container {
 .intro-container {
     display: flex;
     align-items: center;    
-    justify-content: space-between;
+    justify-content: center;
     background-color: #1F2937;
     color:white;
     padding: 100px;
 }
 
 .intro-main {
+    display: flex;
+    gap: 100px;
+}
+
+.intro-text {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -81,24 +88,27 @@ main-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 44px 100px 100px 100px;
+    gap: 20px;
 }
 
 .info-heading {
     font-size: 36px;
     font-weight: 700;
+    flex-shrink: 0;
 }
 
 .info-pic-container {
     display: flex;
-    margin-top: 20px;
     flex-wrap: wrap;
-    gap: 80px;
+    justify-content: center;
+    gap: 20px;
 }
 
 .pic-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
 }
 
@@ -133,7 +143,6 @@ main-container {
 .cta {
     display: flex;
     align-items: center;
-    flex-shrink: 0;
     border-radius: 10px;
     background-color: #3882F6;
     gap: 50px;
