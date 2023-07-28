@@ -32,6 +32,7 @@ main-container {
     justify-content: space-between;
     background-color: #1F2937;
     color:white;
+    padding: 100px;
 }
 
 .info-container {
@@ -55,5 +56,28 @@ main-container {
 }
 
 .quote-src {
-    justify-self: end;
+    align-self: center;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.cta {
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px;
+    align-items: center;
+    gap: 50px;
+}
+
+.cta-text {
+    color: white;
+}
+
+.cta-heading {
+    font-weight: 900;
 }
