@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 2px dotted red;
 }
 
 body {
@@ -14,7 +13,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    height: 60px;
+    align-items: center;
     padding: 20px;
     position: sticky;
     top:0;
@@ -24,6 +23,7 @@ body {
 
 .header-links {
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
