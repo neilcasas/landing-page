@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 2px dotted red;
 }
 
 body {
@@ -67,6 +68,7 @@ main-container {
     text-decoration: none;
     color: white;
     background-color: #3882F6;
+    flex-shrink: 0;
     height: fit-content;
     width: fit-content;
     padding: 10px;
