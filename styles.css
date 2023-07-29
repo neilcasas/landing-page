@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px dotted red;
 }
 
 body {
@@ -14,9 +15,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     position: sticky;
     top:0;
+    height: 60px;
+    padding-left: 20px;
     background-color: #1F2937;
     color:white;
 }
@@ -24,12 +26,22 @@ body {
 .header-links {
     display: flex;
     align-items: center;
-    gap: 20px;
+    height: 60px;
 }
 
 .header-links a {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     text-decoration: none;
+    height: 60px;
+    padding: 10px;
     color: white;
+}
+
+.header-links a:hover {
+    background-color: #E5E7EB;
+    color: #1F2937;
 }
 
 main-container {
