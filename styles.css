@@ -97,35 +97,36 @@ body {
     border-radius: 5px;
 }
 
-.info-container {
+.team-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 44px 100px 100px 100px;
     gap: 20px;
+    background-color:rgb(228, 228, 150);
 }
 
-.info-main {
+.team-main {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
 
-.info-heading {
-    font-size: 36px;
+.team-heading {
+    font-size: 48px;
     text-align: center;
     font-weight: 700;
     flex-shrink: 0;
 }
 
-.info-pic-container {
+.member-pic-container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 80px;
 }
 
 .pic-container {
@@ -134,13 +135,18 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: 10px;
     max-width: 200px;
 }
 
 .pic-container img {
     border: 3px solid #3882F6;
     width: 100%;
+}
+
+.member-name {
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .quote-container {
