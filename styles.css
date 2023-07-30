@@ -135,12 +135,18 @@ body {
     text-align: center;
     gap: 10px;
     max-width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.pic-container:hover {
+    transform: scale(1.2);
 }
 
 .member-img img {
     border: 3px solid #000000;
     border-radius: 10px;
     width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .member-name {
