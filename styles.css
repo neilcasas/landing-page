@@ -69,10 +69,6 @@ body {
     display: flex;
 }
 
-.intro-logo {
-    flex-shrink: 0;
-}
-
 .intro-text {
     display: flex;
     flex-direction: column;
