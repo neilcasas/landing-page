@@ -23,6 +23,11 @@ body {
     color:white;
 }
 
+#header-logo {
+    height: 50px;
+    width: auto;
+}
+
 .header-links {
     display: flex;
     align-items: center;
@@ -40,8 +45,8 @@ body {
 }
 
 .header-links a:hover {
-    background-color: #E5E7EB;
-    color: #1F2937;
+    background-color: #e3ec8e;
+    color: #000000;
 }
 
 .main-container {
