@@ -104,7 +104,7 @@ body {
     align-items: center;
     padding: 44px 100px 100px 100px;
     gap: 20px;
-    background-color:rgb(228, 228, 150);
+    background-color:#e3ec8e;
 }
 
 .team-main {
@@ -140,7 +140,7 @@ body {
 }
 
 .pic-container img {
-    border: 3px solid #3882F6;
+    border: 3px solid #000000;
     width: 100%;
 }
 
