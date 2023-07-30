@@ -67,7 +67,10 @@ body {
 
 .intro-main {
     display: flex;
-    gap: 100px;
+}
+
+.intro-logo {
+    flex-shrink: 0;
 }
 
 .intro-text {
@@ -196,7 +199,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e3ec8e;
+    background-image: url(./pictures/cta-bg.jpg);
+    background-size: cover;
+    height: 400px;
     padding: 100px;
 }
 
