@@ -86,7 +86,7 @@ body {
 .intro-button, .cta-button {
     text-decoration: none;
     color: white;
-    background-color: #3882F6;
+    background-color: #3d6413;
     flex-shrink: 0;
     height: fit-content;
     width: fit-content;
@@ -96,8 +96,8 @@ body {
 
 .intro-button:hover, .cta-button:hover {
     text-decoration: none;
-    color: #3882F6;
-    background-color: white;
+    color: black;
+    background-color: #e3ec8e;
     height: fit-content;
     width: fit-content;
     padding: 10px;
@@ -189,6 +189,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #e3ec8e;
     padding: 100px;
 }
 
@@ -196,7 +197,7 @@ body {
     display: flex;
     align-items: center;
     border-radius: 10px;
-    background-color: #3882F6;
+    background-color: #3d6413;
     gap: 50px;
     padding: 50px 100px; 
 }
