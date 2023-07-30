@@ -1,8 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    border: 1px dotted red;
+    box-sizing: border-box; 
 }
 
 body {
@@ -44,7 +43,7 @@ body {
     color: #1F2937;
 }
 
-main-container {
+.main-container {
     display: flex;
     flex-direction: column;
 }
@@ -135,10 +134,13 @@ main-container {
     align-items: center;
     text-align: center;
     gap: 20px;
+    max-width: 200px;
+    margin: 0 auto;
 }
 
 .pic-container img {
     border: 3px solid #3882F6;
+    width: 100%;
 }
 
 .quote-container {
