@@ -78,9 +78,16 @@ body {
 }
 
 .intro {
-    font-size: 64px;
+    font-size: 128px;
     font-weight: 800;
+    color:#e3ec8e;
     margin-bottom: -20px;
+}
+
+.intro-description {
+    font-size: 24px;
+    font-weight: 800px;
+    color:#ffffff;
 }
 
 .intro-button, .cta-button {
